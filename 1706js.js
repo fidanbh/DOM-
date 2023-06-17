@@ -12,7 +12,7 @@ let getRandomColor = () => {
   return `rgb(${red},${blue},${green})`;
 };
 
-//btn.addEventListener("click", changeColor);
+btn.addEventListener("click", changeColor);
 
 function changeColor() {
   //const randomColorOne = getRandomColor();
@@ -42,4 +42,4 @@ function changeImage() {
   );
 }
 
-//btn.addEventListener("click", changeImage);
+btn.addEventListener("click", changeImage);
