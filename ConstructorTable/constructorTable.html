@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="constructorTable.css" />
+  </head>
+  <body>
+    <div class="body-text">
+      <div class="first-div">
+        <form>
+          <div class="inputFlex">
+            <label for="inputName">Name: </label>
+            <input
+              type="text"
+              id="inputName"
+              placeholder="Write your name"
+              required
+            />
+            <label for="inputSurname">Surname: </label>
+            <input
+              type="text"
+              id="inputSurname"
+              placeholder="Write your surname"
+              required
+            />
+            <label for="inputPassword">Password (8 characters minimum): </label>
+            <input
+              type="password"
+              id="inputPassword"
+              placeholder="Write your password"
+              minlength="8"
+              required
+            />
+          </div>
+
+          <button id="btn">Submit</button>
+        </form>
+      </div>
+      <div id="pText1" class="second-div">
+        <table id="tableText">
+          <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Password</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="constructorTable.js"></script>
+  </body>
+</html>

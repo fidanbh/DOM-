@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+#toggle-oval {
+  border: 1px solid grey;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: grey;
+  align-items: center;
+  margin-top: 20%;
+  margin-left: 50%;
+  cursor: pointer;
+}
+#toggle-circle {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transform: scale(0.9);
+  position: absolute;
+}
+.circle_left {
+  left: 730px;
+}
+body.body_bg_color {
+  background-color: black;
+}
